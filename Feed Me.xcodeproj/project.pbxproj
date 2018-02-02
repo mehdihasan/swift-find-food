@@ -10,6 +10,7 @@
 		0E9DAE561BDA80A4009DA461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E9DAE551BDA80A4009DA461 /* LaunchScreen.storyboard */; };
 		461E8D992A720145A9E20338 /* Pods_Feed_Me.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A76A998E5BC9094E04A519 /* Pods_Feed_Me.framework */; };
 		915C45CE202456D7002A8F4D /* PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915C45CD202456D7002A8F4D /* PlaceMarker.swift */; };
+		915C45D42024845C002A8F4D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 915C45D32024845C002A8F4D /* README.md */; };
 		B48F646E19B22EB200710BEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48F646D19B22EB200710BEB /* AppDelegate.swift */; };
 		B48F647319B22EB200710BEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48F647119B22EB200710BEB /* Main.storyboard */; };
 		B48F647519B22EB200710BEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48F647419B22EB200710BEB /* Images.xcassets */; };
@@ -28,6 +29,7 @@
 		6504C8534735AC4D678E8A95 /* Pods-Feed Me.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feed Me.release.xcconfig"; path = "Pods/Target Support Files/Pods-Feed Me/Pods-Feed Me.release.xcconfig"; sourceTree = "<group>"; };
 		79140D881E4BB696EB110D2C /* Pods-Feed Me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feed Me.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Feed Me/Pods-Feed Me.debug.xcconfig"; sourceTree = "<group>"; };
 		915C45CD202456D7002A8F4D /* PlaceMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMarker.swift; sourceTree = "<group>"; };
+		915C45D32024845C002A8F4D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B48F646819B22EB200710BEB /* Feed Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Feed Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48F646C19B22EB200710BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B48F646D19B22EB200710BEB /* AppDelegate.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 		B48F645F19B22EB200710BEB = {
 			isa = PBXGroup;
 			children = (
+				915C45D32024845C002A8F4D /* README.md */,
 				B48F646A19B22EB200710BEB /* Feed Me */,
 				B48F646919B22EB200710BEB /* Products */,
 				B48F649D19B231D500710BEB /* Frameworks */,
@@ -207,6 +210,7 @@
 			files = (
 				B48F647319B22EB200710BEB /* Main.storyboard in Resources */,
 				0E9DAE561BDA80A4009DA461 /* LaunchScreen.storyboard in Resources */,
+				915C45D42024845C002A8F4D /* README.md in Resources */,
 				B48F649919B22F9B00710BEB /* MarkerInfoView.xib in Resources */,
 				B48F647519B22EB200710BEB /* Images.xcassets in Resources */,
 			);
