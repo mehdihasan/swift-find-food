@@ -5,7 +5,6 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -25,24 +24,17 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="rs9-ni-X6P">
-                                <rect key="frame" x="20" y="166" width="335" height="335"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="rs9-ni-X6P" secondAttribute="height" multiplier="1:1" id="pWj-UY-qUR"/>
-                                </constraints>
+                                <rect key="frame" x="59" y="205" width="256" height="256"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="rs9-ni-X6P" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" id="0Ky-AB-nTR"/>
-                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="rs9-ni-X6P" secondAttribute="trailing" constant="20" id="55W-ph-kHk"/>
+                            <constraint firstItem="rs9-ni-X6P" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="52T-11-vqq"/>
                             <constraint firstItem="Xy8-nX-a18" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Flu-N7-BWl"/>
-                            <constraint firstItem="rs9-ni-X6P" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="OD7-L3-rxE"/>
+                            <constraint firstItem="rs9-ni-X6P" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="HS4-2O-Vhz"/>
                             <constraint firstAttribute="trailing" secondItem="Xy8-nX-a18" secondAttribute="trailing" id="Q9p-f5-yUz"/>
                             <constraint firstItem="Xy8-nX-a18" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="RHx-Wi-zGl"/>
-                            <constraint firstItem="rs9-ni-X6P" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="20" id="VeS-nO-krH"/>
-                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="rs9-ni-X6P" secondAttribute="bottom" constant="20" id="eKH-kB-TPi"/>
                             <constraint firstAttribute="bottom" secondItem="Xy8-nX-a18" secondAttribute="bottom" id="jjf-X7-uZ5"/>
-                            <constraint firstItem="rs9-ni-X6P" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="lnn-uH-LXE"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -52,7 +44,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo" width="512" height="512"/>
+        <image name="logo" width="256" height="256"/>
         <image name="rwdevcon-bg" width="1104" height="1104"/>
     </resources>
 </document>
