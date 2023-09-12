@@ -1,7 +1,7 @@
 import UIKit
 import GoogleMaps
 
-let googleApiKey = "AIzaSyCty8afriOnzPN-a7RrEBCmyFvfsEn0ojg"
+let googleApiKey = ProcessInfo.processInfo.environment["GOOGLE_API_KEY"]
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
